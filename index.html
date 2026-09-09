@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>GEF - Gestão Financeira</title>
+    <meta name="description" content="Sistema de Gestão Financeira e Ponto de Venda para Lojas de Ferragens e Materiais de Construção." />
+    <meta property="og:title" content="GEF - Gestão Financeira" />
+    <meta property="og:description" content="Sistema de Gestão Financeira e Ponto de Venda para Lojas de Ferragens e Materiais de Construção." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#f59e0b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GEF" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="./img/app-icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS separado -->
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- Preload dos módulos vendor -->
+    <link rel="modulepreload" crossorigin href="./js/vendor/other.js">
+    <link rel="modulepreload" crossorigin href="./js/vendor/react.js">
+    <link rel="modulepreload" crossorigin href="./js/vendor/lucide.js">
+    <link rel="modulepreload" crossorigin href="./js/vendor/supabase.js">
+    <!-- Preload dos módulos da aplicação -->
+    <link rel="modulepreload" crossorigin href="./js/app/core.js">
+    <link rel="modulepreload" crossorigin href="./js/app/components.js">
+    <link rel="modulepreload" crossorigin href="./js/app/views.js">
+    <!-- Entry point -->
+    <script type="module" crossorigin src="./js/entry.js"></script>
+  </head>
+  <body class="bg-slate-900 text-slate-100 antialiased selection:bg-orange-500 selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
